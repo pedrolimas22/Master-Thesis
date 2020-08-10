@@ -1,0 +1,162 @@
+/* Cloak elements on initial load to hide the possible display of {{ ... }} 
+ * Add to the app tag or to specific tags
+ * To display "loading...", change to the following:
+ *    [v-cloak] > * { display:none }
+ *    [v-cloak]::before { content: "loading…" }
+ */
+[v-cloak] { display: none; }
+
+#main-wrapper{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+	border: 2px solid #95a5a6;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.flex {
+   display: flex;
+   flex-direction: row;
+}
+
+.w3_container {
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+	border: 2px solid #95a5a6;
+}
+
+div.horizontalgap {
+  float: left;
+  overflow: hidden;
+  height: 1px;
+  width: 0px;
+}
+
+.avatar{
+	
+	width:150px;
+	text-align:center;
+}
+
+.myform{
+	width:450px;
+	margin:0 auto;
+}
+
+.inputvalues{
+	width:430px;
+	margin:5px auto;
+	padding:2px;
+}
+.radiobtns{
+	margin: 10px;
+}
+.selectbox{
+margin: 10px;	
+}
+
+#btnLogin{
+	margin-top:10px;
+	background-color:#27ae60;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+#btnRegister{
+	margin-bottom:20px;
+	margin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+#btnReset{
+	margin-bottom:20px;
+	margin-top:10px;
+	background-color:#A9A9A9;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+#signup_btn{
+	margin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#back_btn{
+	margin-top:10px;
+	background-color:#e74c3c;
+	padding:5px;
+	color:white;
+	width:30%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+#logout_btn{
+	margin-top:10px;
+	background-color:#c0392b;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+.inline-block-child {
+  display: inline-block;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+
+.inner-text {
+  
+  height: 100%;
+  width: 100%;
+}
+
+/*  Colours for Syntax Highlighted pre's */
+.syntax-highlight {color:white;background-color:black;padding:5px 10px;}
+.syntax-highlight > .key {color:#ffbf35}
+.syntax-highlight > .string {color:#5dff39;}
+.syntax-highlight > .number {color:#70aeff;}
+.syntax-highlight > .boolean {color:#b993ff;}
